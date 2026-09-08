@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="Ximena Hincapié: motion designer y desarrolladora web en Colombia. Animación, edición de video y sitios web, ecommerce y funnels en WordPress, Shopify, HighLevel y herramientas de IA." />
+<meta name="author" content="Ximena Hincapié" />
+<meta name="robots" content="index, follow, max-image-preview:large" />
+<link rel="canonical" href="https://ximenahincapie.com/" />
+<meta property="og:type" content="profile" />
+<meta property="og:site_name" content="Ximena Hincapié" />
+<meta property="og:title" content="Ximena Hincapié — Motion design y desarrollo web" />
+<meta property="og:description" content="Animación, edición de video y sitios web, ecommerce y funnels. Trabajo desde Colombia, en remoto." />
+<meta property="og:url" content="https://ximenahincapie.com/" />
+<meta property="og:locale" content="es_CO" />
+<meta property="og:locale:alternate" content="en_US" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Ximena Hincapié — Motion design y desarrollo web" />
+<meta name="twitter:description" content="Animación, edición de video y sitios web, ecommerce y funnels. Trabajo desde Colombia, en remoto." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+<style>
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: #F3ECDE; }
+  body { -webkit-font-smoothing: antialiased; }
+  a { color: inherit; text-decoration: none; }
+  a:hover { color: #183451; }
+  html { scroll-behavior: smooth; }
+  ::selection { background: #183451; color: #F3ECDE; }
+  @keyframes omFadeUp { from { opacity: 0; transform: translateY(22px) } to { opacity: 1; transform: none } }
+  @keyframes omWipe { from { opacity: 0; clip-path: inset(0 0 100% 0); transform: translateY(28px) scale(.97) } to { opacity: 1; clip-path: inset(0 0 0 0); transform: none } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important } }
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Person","@id":"https://ximenahincapie.com/#ximena","name":"Ximena Hincapié","jobTitle":["Motion designer","Editora multimedia","Desarrolladora web"],"description":"Motion designer y editora multimedia que también construye, migra y mantiene sitios web, ecommerce y funnels.","email":"mailto:ximennahincapie@gmail.com","url":"https://ximenahincapie.com/","address":{"@type":"PostalAddress","addressCountry":"CO"},"knowsLanguage":["es","en"],"knowsAbout":["Motion graphics","After Effects","Premiere Pro","Animación tipográfica","Postproducción de video","WordPress","Elementor","WooCommerce","Shopify","HighLevel","Funnels","Ecommerce","Migración de sitios web","Lovable","Claude"],"sameAs":["https://www.behance.net/ximenahincapie1"],"worksFor":{"@type":"Organization","name":"Orgánico Studio","url":"https://organicostudio.com/"},"founder":{"@type":"Organization","name":"Weso.ai","url":"https://weso.ai/"},"alumniOf":{"@type":"CollegeOrUniversity","name":"Universidad Tecnológica de Pereira"}},{"@type":"WebSite","@id":"https://ximenahincapie.com/#sitio","url":"https://ximenahincapie.com/","name":"Ximena Hincapié — Motion design y desarrollo web","inLanguage":"es-CO","about":{"@id":"https://ximenahincapie.com/#ximena"}},{"@type":"ItemList","name":"Sitios web construidos por Ximena Hincapié","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"WebSite","name":"Santa Rosa Bikes","url":"https://santarosabikes.com/","description":"Ecommerce con sistema de agendamiento en WordPress y WooCommerce."}},{"@type":"ListItem","position":2,"item":{"@type":"WebSite","name":"Desobedece","url":"https://desobedece.com.co/","description":"Tienda en línea de marca de moda: catálogo, fichas de producto y pagos."}},{"@type":"ListItem","position":3,"item":{"@type":"WebSite","name":"Orgánico Studio","url":"https://organicostudio.com/","description":"Sitio del estudio, construido con IA y puesto en producción."}},{"@type":"ListItem","position":4,"item":{"@type":"WebSite","name":"Zerena","url":"https://zerena.com.co/","description":"Landing de portafolio de una sola página."}},{"@type":"ListItem","position":5,"item":{"@type":"WebSite","name":"VLA","url":"https://agenciavla.com/","description":"Sitio de agencia: servicios y portafolio."}}]}]}</script>
+</helmet>
+
+<div style="font-family: Archivo, sans-serif; color: #183451; background: #F3ECDE; overflow-x: hidden">
+
+  <header style="position: sticky; top: 0; z-index: 50; display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 18px 40px; background: rgba(243,236,222,0.9); backdrop-filter: blur(12px); border-bottom: 1px solid rgba(24,52,81,0.14)">
+    <a href="#top" style="font-size: 14px; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase">Ximena Hincapié</a>
+    <nav style="display: flex; align-items: center; gap: 28px; font-size: 12px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase">
+      <a href="#trabajo" style-hover="color:#183451">{{ navTrabajo }}</a>
+      <a href="#areas" style-hover="color:#183451">{{ navAreas }}</a>
+      <a href="#trayectoria" style-hover="color:#183451">{{ navTrayectoria }}</a>
+      <div style="display: flex; align-items: center; border: 1px solid rgba(24,52,81,0.3); border-radius: 999px; padding: 3px; gap: 2px">
+        <button type="button" onClick="{{ setEs }}" style="{{ estiloEs }}">ES</button>
+        <button type="button" onClick="{{ setEn }}" style="{{ estiloEn }}">EN</button>
+      </div>
+      <a href="#contacto" style="padding: 9px 18px; background: #183451; color: #F3ECDE; border-radius: 999px" style-hover="background:#0E2135;color:#F3ECDE">{{ navContacto }}</a>
+    </nav>
+  </header>
+
+  <section id="top" style="padding: 120px 40px 0; max-width: 1400px; margin: 0 auto">
+    <div style="display: flex; align-items: baseline; gap: 14px; font-size: 11px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: rgba(24,52,81,0.55)">
+      <span style="width: 8px; height: 8px; border-radius: 50%; background: #183451; display: inline-block"></span>
+      <span>{{ ubicacion }}</span>
+    </div>
+
+    <h1 style="margin: 22px 0 0; font-weight: 900; font-size: clamp(64px, 12.5vw, 190px); line-height: 0.86; letter-spacing: -0.045em; text-transform: uppercase">
+      <span style="position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0">Ximena Hincapié — motion design y desarrollo web. </span>
+      {{ tituloUno }}
+      <span style="font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; text-transform: lowercase; letter-spacing: -0.01em">{{ tituloY }}</span>
+      {{ tituloDos }}
+    </h1>
+
+    <div style="display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr); gap: 48px; align-items: end; margin-top: 56px; padding-bottom: 104px; border-bottom: 1px solid rgba(24,52,81,0.16)">
+      <p style="margin: 0; font-size: clamp(18px, 1.9vw, 26px); line-height: 1.42; max-width: 22ch; font-weight: 500; text-wrap: pretty">{{ intro }}</p>
+      <div style="display: flex; flex-direction: column; gap: 18px">
+        <p style="margin: 0; font-size: 15px; line-height: 1.6; color: rgba(24,52,81,0.7); text-wrap: pretty">{{ introDos }}</p>
+        <div style="display: flex; flex-wrap: wrap; gap: 10px">
+          <a href="#trabajo" style="padding: 13px 24px; background: #0E2135; color: #F3ECDE; border-radius: 999px; font-size: 13px; font-weight: 700; letter-spacing: 0.04em" style-hover="background:#183451;color:#F3ECDE">{{ ctaTrabajo }}</a>
+          <a href="#contacto" style="padding: 13px 24px; border: 1px solid rgba(24,52,81,0.3); border-radius: 999px; font-size: 13px; font-weight: 700; letter-spacing: 0.04em" style-hover="border-color:#183451">{{ ctaEscribir }}</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="areas" style="background: #183451; color: #F3ECDE; padding: 96px 40px">
+    <div style="max-width: 1400px; margin: 0 auto">
+      <h2 style="margin: 0; font-weight: 900; font-size: clamp(40px, 6.5vw, 104px); line-height: 0.9; letter-spacing: -0.035em; text-transform: uppercase; max-width: 16ch">
+        {{ areasTituloUno }}
+        <span style="font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; text-transform: lowercase; letter-spacing: -0.01em">{{ areasTituloItalic }}</span>
+        {{ areasTituloDos }}
+      </h2>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1px; margin-top: 72px; background: rgba(243,236,222,0.28)">
+        <div style="background: #183451; padding: 36px 32px 40px 0">
+          <div style="font-size: 11px; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; opacity: 0.75">{{ areaUnoEyebrow }}</div>
+          <h3 style="margin: 20px 0 16px; font-size: 30px; font-weight: 800; letter-spacing: -0.02em; line-height: 1.1">{{ areaUnoTitulo }}</h3>
+          <p style="margin: 0 0 24px; font-size: 15px; line-height: 1.65; opacity: 0.88; max-width: 34ch">{{ areaUnoTexto }}</p>
+          <ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 9px; font-size: 14px; font-weight: 500">
+            <li>After Effects · Premiere Pro</li>
+            <li>Illustrator · Photoshop</li>
+            <li>{{ areaUnoItem }}</li>
+          </ul>
+        </div>
+        <div style="background: #183451; padding: 36px 0 40px 32px">
+          <div style="font-size: 11px; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase; opacity: 0.75">{{ areaDosEyebrow }}</div>
+          <h3 style="margin: 20px 0 16px; font-size: 30px; font-weight: 800; letter-spacing: -0.02em; line-height: 1.1">{{ areaDosTitulo }}</h3>
+          <p style="margin: 0 0 24px; font-size: 15px; line-height: 1.65; opacity: 0.88; max-width: 34ch">{{ areaDosTexto }}</p>
+          <ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 9px; font-size: 14px; font-weight: 500">
+            <li>{{ areaDosItem }}</li>
+            <li>WooCommerce · Shopify · HighLevel</li>
+            <li>Claude · Lovable</li>
+          </ul>
+        </div>
+      </div>
+
+      <sc-if value="{{ mostrarChips }}" hint-placeholder-val="{{ true }}">
+        <div style="display: flex; flex-wrap: wrap; gap: 16px 12px; margin-top: 84px; padding-bottom: 16px; align-items: center">
+          <sc-for list="{{ chips }}" as="chip" hint-placeholder-count="9">
+            <span style="{{ chip.estilo }}"><span style="display: inline-block; padding: 11px 22px; background: #F3ECDE; color: #183451; border-radius: 999px; font-size: 14px; font-weight: 600; cursor: default; box-shadow: 0 0 0 rgba(14,33,53,0); transition: transform 260ms cubic-bezier(.2,.8,.3,1), box-shadow 260ms ease" style-hover="transform: translateY(-6px) scale(1.06); box-shadow: 0 10px 22px rgba(14,33,53,0.35)" style-active="transform: translateY(-6px) scale(1.06); box-shadow: 0 10px 22px rgba(14,33,53,0.35)">{{ chip.texto }}</span></span>
+          </sc-for>
+        </div>
+      </sc-if>
+    </div>
+  </section>
+
+  <section id="trabajo" style="padding: 96px 40px 0; max-width: 1400px; margin: 0 auto">
+    <div style="display: flex; flex-direction: column; gap: 96px">
+
+      <div style="order: {{ ordenWeb }}">
+        <div style="position: relative; overflow: hidden; display: flex; align-items: baseline; justify-content: space-between; gap: 24px; flex-wrap: wrap; padding-bottom: 22px; border-bottom: 2px solid #183451">
+          <span aria-hidden="true" data-ghost="1" style="position: absolute; right: 0; bottom: 0.06em; font-weight: 900; font-size: clamp(34px, 5vw, 74px); line-height: 0.92; letter-spacing: -0.035em; text-transform: uppercase; color: rgba(24,52,81,0.09); pointer-events: none; white-space: nowrap; transform: translate3d(var(--gx, 40px), 0, 0)">{{ webTitulo }}</span>
+          <h2 style="position: relative; margin: 0; font-weight: 900; font-size: clamp(34px, 5vw, 74px); line-height: 0.92; letter-spacing: -0.035em; text-transform: uppercase">{{ webTitulo }}</h2>
+          <span style="font-size: 12px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(24,52,81,0.55)">{{ webEyebrow }}</span>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 40px 32px; margin-top: 44px">
+
+          <article style="display: flex; flex-direction: column; gap: 18px">
+            <a href="https://santarosabikes.com/" target="_blank" rel="noopener" style="display: block; aspect-ratio: 4 / 3; background: #E4DCCB; border-radius: 4px; overflow: hidden">
+              <img src="./proyectos/santarosabikes.png" alt="Sitio de Santa Rosa Bikes" style="display: block; width: 100%; height: 100%; object-fit: cover; transition: transform 500ms cubic-bezier(.2,.8,.3,1)" style-hover="transform: scale(1.03)" />
+            </a>
+            <div>
+              <div style="display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap">
+                <h3 style="margin: 0; font-size: 24px; font-weight: 800; letter-spacing: -0.02em">Santa Rosa Bikes</h3>
+                <a href="https://santarosabikes.com/" target="_blank" rel="noopener" style="font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #183451; border-bottom: 1px solid rgba(24,52,81,0.4)">{{ verSitio }}</a>
+              </div>
+              <p style="margin: 10px 0 14px; font-size: 15px; line-height: 1.6; color: rgba(24,52,81,0.72); text-wrap: pretty">{{ santarosaTexto }}</p>
+              <div style="font-size: 11px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(24,52,81,0.5)">WordPress · WooCommerce · Elementor</div>
+            </div>
+          </article>
+
+          <article style="display: flex; flex-direction: column; gap: 18px">
+            <a href="https://desobedece.com.co/" target="_blank" rel="noopener" style="display: block; aspect-ratio: 4 / 3; background: #E4DCCB; border-radius: 4px; overflow: hidden">
+              <img src="./proyectos/desobedece.png" alt="Tienda en línea de Desobedece" style="display: block; width: 100%; height: 100%; object-fit: cover; transition: transform 500ms cubic-bezier(.2,.8,.3,1)" style-hover="transform: scale(1.03)" />
+            </a>
+            <div>
+              <div style="display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap">
+                <h3 style="margin: 0; font-size: 24px; font-weight: 800; letter-spacing: -0.02em">Desobedece</h3>
+                <a href="https://desobedece.com.co/" target="_blank" rel="noopener" style="font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #183451; border-bottom: 1px solid rgba(24,52,81,0.4)">{{ verSitio }}</a>
+              </div>
+              <p style="margin: 10px 0 14px; font-size: 15px; line-height: 1.6; color: rgba(24,52,81,0.72); text-wrap: pretty">{{ desobedeceTexto }}</p>
+              <div style="font-size: 11px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(24,52,81,0.5)">{{ desobedeceTags }}</div>
+            </div>
+          </article>
+
+          <article style="display: flex; flex-direction: column; gap: 18px">
+            <a href="https://organicostudio.com/" target="_blank" rel="noopener" style="display: block; aspect-ratio: 4 / 3; background: #E4DCCB; border-radius: 4px; overflow: hidden">
+              <img src="./proyectos/organico.png" alt="Sitio de Orgánico Studio" style="display: block; width: 100%; height: 100%; object-fit: cover; transition: transform 500ms cubic-bezier(.2,.8,.3,1)" style-hover="transform: scale(1.03)" />
+            </a>
+            <div>
+              <div style="display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap">
+                <h3 style="margin: 0; font-size: 24px; font-weight: 800; letter-spacing: -0.02em">Orgánico Studio</h3>
+                <a href="https://organicostudio.com/" target="_blank" rel="noopener" style="font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #183451; border-bottom: 1px solid rgba(24,52,81,0.4)">{{ verSitio }}</a>
+              </div>
+              <p style="margin: 10px 0 14px; font-size: 15px; line-height: 1.6; color: rgba(24,52,81,0.72); text-wrap: pretty">{{ organicoTexto }}</p>
+              <div style="font-size: 11px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(24,52,81,0.5)">{{ organicoTags }}</div>
+            </div>
+          </article>
+
+          <article style="display: flex; flex-direction: column; gap: 18px">
+            <a href="https://zerena.com.co/" target="_blank" rel="noopener" style="display: block; aspect-ratio: 4 / 3; background: #E4DCCB; border-radius: 4px; overflow: hidden">
+              <img src="./proyectos/zerena.png" alt="Landing de Zerena" style="display: block; width: 100%; height: 100%; object-fit: cover; transition: transform 500ms cubic-bezier(.2,.8,.3,1)" style-hover="transform: scale(1.03)" />
+            </a>
+            <div>
+              <div style="display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap">
+                <h3 style="margin: 0; font-size: 24px; font-weight: 800; letter-spacing: -0.02em">Zerena</h3>
+                <a href="https://zerena.com.co/" target="_blank" rel="noopener" style="font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #183451; border-bottom: 1px solid rgba(24,52,81,0.4)">{{ verSitio }}</a>
+              </div>
+              <p style="margin: 10px 0 14px; font-size: 15px; line-height: 1.6; color: rgba(24,52,81,0.72); text-wrap: pretty">{{ zerenaTexto }}</p>
+              <div style="font-size: 11px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(24,52,81,0.5)">{{ zerenaTags }}</div>
+            </div>
+          </article>
+
+          <article style="display: flex; flex-direction: column; gap: 18px">
+            <a href="https://agenciavla.com/" target="_blank" rel="noopener" style="display: block; aspect-ratio: 4 / 3; background: #E4DCCB; border-radius: 4px; overflow: hidden">
+              <img src="./proyectos/vla.png" alt="Sitio de la agencia VLA" style="display: block; width: 100%; height: 100%; object-fit: cover; transition: transform 500ms cubic-bezier(.2,.8,.3,1)" style-hover="transform: scale(1.03)" />
+            </a>
+            <div>
+              <div style="display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap">
+                <h3 style="margin: 0; font-size: 24px; font-weight: 800; letter-spacing: -0.02em">VLA</h3>
+                <a href="https://agenciavla.com/" target="_blank" rel="noopener" style="font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #183451; border-bottom: 1px solid rgba(24,52,81,0.4)">{{ verSitio }}</a>
+              </div>
+              <p style="margin: 10px 0 14px; font-size: 15px; line-height: 1.6; color: rgba(24,52,81,0.72); text-wrap: pretty">{{ vlaTexto }}</p>
+              <div style="font-size: 11px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(24,52,81,0.5)">{{ vlaTags }}</div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+
+      <div style="order: {{ ordenVideo }}">
+        <div style="position: relative; overflow: hidden; display: flex; align-items: baseline; justify-content: space-between; gap: 24px; flex-wrap: wrap; padding-bottom: 22px; border-bottom: 2px solid #183451">
+          <span aria-hidden="true" data-ghost="1" style="position: absolute; right: 0; bottom: 0.06em; font-weight: 900; font-size: clamp(34px, 5vw, 74px); line-height: 0.92; letter-spacing: -0.035em; text-transform: uppercase; color: rgba(24,52,81,0.09); pointer-events: none; white-space: nowrap; transform: translate3d(var(--gx, 40px), 0, 0)">{{ motionTitulo }}</span>
+          <h2 style="position: relative; margin: 0; font-weight: 900; font-size: clamp(34px, 5vw, 74px); line-height: 0.92; letter-spacing: -0.035em; text-transform: uppercase">{{ motionTitulo }}</h2>
+          <a href="https://vimeo.com/1198582054" target="_blank" rel="noopener" style="font-size: 12px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: #183451; border-bottom: 1px solid rgba(24,52,81,0.4)">{{ motionCta }}</a>
+        </div>
+
+        <figure style="margin: 44px 0 0; display: flex; flex-direction: column; gap: 16px">
+          <div style="aspect-ratio: 16 / 9; background: #0E2135; border-radius: 4px; overflow: hidden">
+            <iframe src="https://player.vimeo.com/video/1198582054?byline=0&amp;portrait=0&amp;title=0" title="Reel de Ximena Hincapié" loading="lazy" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="allowfullscreen" style="display: block; width: 100%; height: 100%; border: 0"></iframe>
+          </div>
+          <figcaption style="display: flex; align-items: baseline; gap: 16px; flex-wrap: wrap">
+            <span style="font-size: 11px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: rgba(24,52,81,0.55)">{{ reelEyebrow }}</span>
+            <span style="font-size: 15px; line-height: 1.5; color: rgba(24,52,81,0.72); max-width: 62ch; text-wrap: pretty">{{ reelTexto }}</span>
+          </figcaption>
+        </figure>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; margin-top: 56px; padding-top: 56px; border-top: 1px solid rgba(24,52,81,0.18)">
+          <div style="display: flex; flex-direction: column; gap: 14px">
+            <div style="aspect-ratio: 16 / 9; background: #0E2135; border-radius: 4px; overflow: hidden"><iframe src="https://www.youtube-nocookie.com/embed/Okgk1K1gsEM" title="Video de Ximena Hincapié" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="allowfullscreen" style="display: block; width: 100%; height: 100%; border: 0"></iframe></div>
+            <div>
+              <h3 style="margin: 0 0 6px; font-size: 18px; font-weight: 800; letter-spacing: -0.01em">{{ motionUnoTitulo }}</h3>
+              <p style="margin: 0; font-size: 14px; line-height: 1.55; color: rgba(24,52,81,0.7)">{{ motionUnoTexto }}</p>
+            </div>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 14px">
+            <div style="aspect-ratio: 16 / 9; background: #0E2135; border-radius: 4px; overflow: hidden; display: flex; align-items: center; justify-content: center"><iframe src="https://www.youtube-nocookie.com/embed/7psLSJKHli4" title="Video de Ximena Hincapié" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="allowfullscreen" style="display: block; height: 100%; aspect-ratio: 9 / 16; border: 0"></iframe></div>
+            <div>
+              <h3 style="margin: 0 0 6px; font-size: 18px; font-weight: 800; letter-spacing: -0.01em">{{ motionDosTitulo }}</h3>
+              <p style="margin: 0; font-size: 14px; line-height: 1.55; color: rgba(24,52,81,0.7)">{{ motionDosTexto }}</p>
+            </div>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 14px">
+            <div style="aspect-ratio: 16 / 9; background: #0E2135; border-radius: 4px; overflow: hidden"><iframe src="https://www.youtube-nocookie.com/embed/hObvZkxrrss" title="Video de Ximena Hincapié" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="allowfullscreen" style="display: block; width: 100%; height: 100%; border: 0"></iframe></div>
+            <div>
+              <h3 style="margin: 0 0 6px; font-size: 18px; font-weight: 800; letter-spacing: -0.01em">{{ motionTresTitulo }}</h3>
+              <p style="margin: 0; font-size: 14px; line-height: 1.55; color: rgba(24,52,81,0.7)">{{ motionTresTexto }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="trayectoria" style="padding: 96px 40px; max-width: 1400px; margin: 0 auto">
+    <div style="position: relative; overflow: hidden; margin-bottom: 56px">
+          <span aria-hidden="true" data-ghost="1" style="position: absolute; right: 0; bottom: 0.06em; font-weight: 900; font-size: clamp(34px, 5vw, 74px); line-height: 0.92; letter-spacing: -0.035em; text-transform: uppercase; color: rgba(24,52,81,0.09); pointer-events: none; white-space: nowrap; transform: translate3d(var(--gx, 40px), 0, 0)">{{ trayectoriaTitulo }}</span>
+      <h2 style="position: relative; margin: 0; font-weight: 900; font-size: clamp(34px, 5vw, 74px); line-height: 0.92; letter-spacing: -0.035em; text-transform: uppercase">{{ trayectoriaTitulo }}</h2>
+    </div>
+
+    <div style="display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); gap: 64px; align-items: start">
+      <div style="display: flex; flex-direction: column">
+        <div style="display: grid; grid-template-columns: 110px 1fr; gap: 24px; padding: 26px 12px 26px 0; border-radius: 4px; transition: background 300ms ease, padding 300ms cubic-bezier(.2,.8,.3,1); border-top: 1px solid rgba(24,52,81,0.18)" style-hover="background: rgba(24,52,81,0.05); padding-left: 16px">
+          <div style="font-size: 13px; font-weight: 700; letter-spacing: 0.06em; color: rgba(24,52,81,0.55); padding-top: 4px">2022 — 2025</div>
+          <div>
+            <h3 style="margin: 0 0 4px; font-size: 21px; font-weight: 800; letter-spacing: -0.015em">Orgánico Studio</h3>
+            <div style="font-size: 13px; font-weight: 600; color: #183451; margin-bottom: 10px">{{ organicoRol }}</div>
+            <p style="margin: 0 0 14px; font-size: 15px; line-height: 1.6; color: rgba(24,52,81,0.72); text-wrap: pretty">{{ organicoTrayectoria }}</p>
+            <div style="display: flex; flex-wrap: wrap; gap: 8px">
+              <span style="padding: 7px 14px; border: 1px solid rgba(24,52,81,0.28); border-radius: 999px; font-size: 12px; font-weight: 600">Premiere Pro</span>
+              <span style="padding: 7px 14px; border: 1px solid rgba(24,52,81,0.28); border-radius: 999px; font-size: 12px; font-weight: 600">After Effects</span>
+              <span style="padding: 7px 14px; border: 1px solid rgba(24,52,81,0.28); border-radius: 999px; font-size: 12px; font-weight: 600">WordPress</span>
+              <span style="padding: 7px 14px; border: 1px solid rgba(24,52,81,0.28); border-radius: 999px; font-size: 12px; font-weight: 600">Shopify</span>
+            </div>
+          </div>
+        </div>
+        <div style="display: grid; grid-template-columns: 110px 1fr; gap: 24px; padding: 26px 12px 26px 0; border-radius: 4px; transition: background 300ms ease, padding 300ms cubic-bezier(.2,.8,.3,1); border-top: 1px solid rgba(24,52,81,0.18)" style-hover="background: rgba(24,52,81,0.05); padding-left: 16px">
+          <div style="font-size: 13px; font-weight: 700; letter-spacing: 0.06em; color: rgba(24,52,81,0.55); padding-top: 4px">2023 — 2025</div>
+          <div>
+            <div style="display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; margin-bottom: 4px">
+              <h3 style="margin: 0; font-size: 21px; font-weight: 800; letter-spacing: -0.015em">Weso.ai</h3>
+              <a href="https://weso.ai/" target="_blank" rel="noopener" style="font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #183451; border-bottom: 1px solid rgba(24,52,81,0.4)">{{ verSitio }}</a>
+            </div>
+            <div style="font-size: 13px; font-weight: 600; color: #183451; margin-bottom: 10px">{{ wesoRol }}</div>
+            <p style="margin: 0 0 14px; font-size: 15px; line-height: 1.6; color: rgba(24,52,81,0.72); text-wrap: pretty">{{ wesoTexto }}</p>
+            <div style="display: flex; flex-wrap: wrap; gap: 8px">
+              <span style="padding: 7px 14px; border: 1px solid rgba(24,52,81,0.28); border-radius: 999px; font-size: 12px; font-weight: 600">{{ wesoTagMigracion }}</span>
+              <span style="padding: 7px 14px; border: 1px solid rgba(24,52,81,0.28); border-radius: 999px; font-size: 12px; font-weight: 600">Funnels</span>
+              <span style="padding: 7px 14px; border: 1px solid rgba(24,52,81,0.28); border-radius: 999px; font-size: 12px; font-weight: 600">Lovable</span>
+              <span style="padding: 7px 14px; border: 1px solid rgba(24,52,81,0.28); border-radius: 999px; font-size: 12px; font-weight: 600">{{ wesoTagAssets }}</span>
+            </div>
+          </div>
+        </div>
+        <div style="display: grid; grid-template-columns: 110px 1fr; gap: 24px; padding: 26px 12px 26px 0; border-radius: 4px; transition: background 300ms ease, padding 300ms cubic-bezier(.2,.8,.3,1); border-top: 1px solid rgba(24,52,81,0.18); border-bottom: 1px solid rgba(24,52,81,0.18)" style-hover="background: rgba(24,52,81,0.05); padding-left: 16px">
+          <div style="font-size: 13px; font-weight: 700; letter-spacing: 0.06em; color: rgba(24,52,81,0.55); padding-top: 4px">2023</div>
+          <div>
+            <h3 style="margin: 0 0 4px; font-size: 21px; font-weight: 800; letter-spacing: -0.015em">{{ coingeniaNombre }}</h3>
+            <div style="font-size: 13px; font-weight: 600; color: #183451; margin-bottom: 10px">{{ coingeniaRol }}</div>
+            <p style="margin: 0 0 14px; font-size: 15px; line-height: 1.6; color: rgba(24,52,81,0.72); text-wrap: pretty">{{ coingeniaTexto }}</p>
+            <div style="display: flex; flex-wrap: wrap; gap: 8px">
+              <span style="padding: 7px 14px; border: 1px solid rgba(24,52,81,0.28); border-radius: 999px; font-size: 12px; font-weight: 600">Premiere Pro</span>
+              <span style="padding: 7px 14px; border: 1px solid rgba(24,52,81,0.28); border-radius: 999px; font-size: 12px; font-weight: 600">After Effects</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <aside style="display: flex; flex-direction: column; gap: 36px; padding: 32px; background: #183451; color: #F3ECDE; border-radius: 4px">
+        <div>
+          <div style="font-size: 11px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: rgba(243,236,222,0.8); margin-bottom: 14px">{{ educacionLabel }}</div>
+          <h3 style="margin: 0 0 4px; font-size: 18px; font-weight: 800; letter-spacing: -0.01em">{{ educacionTitulo }}</h3>
+          <p style="margin: 0; font-size: 14px; line-height: 1.55; color: rgba(243,236,222,0.75)">{{ educacionDetalle }}</p>
+        </div>
+        <div>
+          <div style="font-size: 11px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: rgba(243,236,222,0.8); margin-bottom: 14px">{{ competenciasLabel }}</div>
+          <ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 8px; font-size: 14px; line-height: 1.4">
+            <sc-for list="{{ competencias }}" as="item" hint-placeholder-count="6">
+              <li>{{ item }}</li>
+            </sc-for>
+          </ul>
+        </div>
+        <div>
+          <div style="font-size: 11px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: rgba(243,236,222,0.8); margin-bottom: 14px">{{ idiomasLabel }}</div>
+          <ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 8px; font-size: 14px; line-height: 1.4">
+            <li>{{ idiomaUno }}</li>
+            <li>{{ idiomaDos }}</li>
+          </ul>
+        </div>
+        
+      </aside>
+    </div>
+  </section>
+
+  <section id="contacto" style="background: #0E2135; color: #F3ECDE; padding: 104px 40px 48px">
+    <div style="max-width: 1400px; margin: 0 auto">
+      <h2 style="margin: 0; font-weight: 900; font-size: clamp(44px, 8.5vw, 140px); line-height: 0.88; letter-spacing: -0.04em; text-transform: uppercase">
+        {{ contactoTitulo }}
+        <span style="font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; text-transform: lowercase; letter-spacing: -0.01em; color: #A9C4D8">{{ contactoItalic }}</span>
+      </h2>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 40px; margin-top: 72px; padding-top: 40px; border-top: 1px solid rgba(243,236,222,0.22)">
+        <div>
+          <div style="font-size: 11px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: rgba(243,236,222,0.8); margin-bottom: 12px">{{ correoLabel }}</div>
+          <a href="mailto:ximennahincapie@gmail.com" style="font-size: clamp(17px, 1.5vw, 21px); font-weight: 700; letter-spacing: -0.01em; border-bottom: 1px solid rgba(243,236,222,0.35)" style-hover="color:#A9C4D8">ximennahincapie@gmail.com</a>
+        </div>
+        <div>
+          <div style="font-size: 11px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: rgba(243,236,222,0.8); margin-bottom: 12px">{{ redesLabel }}</div>
+          <div style="display: flex; flex-direction: column; gap: 8px; align-items: flex-start; font-size: clamp(17px, 1.5vw, 21px); font-weight: 700; letter-spacing: -0.01em">
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener" style="border-bottom: 1px solid rgba(243,236,222,0.35)" style-hover="color:#A9C4D8">LinkedIn ↗</a>
+            <a href="https://www.behance.net/ximenahincapie1" target="_blank" rel="noopener" style="border-bottom: 1px solid rgba(243,236,222,0.35)" style-hover="color:#A9C4D8">Behance ↗</a>
+          </div>
+        </div>
+        <div>
+          <div style="font-size: 11px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: rgba(243,236,222,0.8); margin-bottom: 12px">{{ ubicacionLabel }}</div>
+          <p style="margin: 0; font-size: clamp(17px, 1.5vw, 21px); font-weight: 700; letter-spacing: -0.01em">{{ ciudad }}<br /><span style="font-weight: 500; color: rgba(243,236,222,0.7); font-size: 15px">{{ remoto }}</span></p>
+        </div>
+      </div>
+
+      <div style="display: flex; justify-content: space-between; align-items: baseline; gap: 24px; flex-wrap: wrap; margin-top: 88px; font-size: 11px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(243,236,222,0.5)">
+        <span>{{ pie }}</span>
+        <span>© {{ anio }}</span>
+      </div>
+    </div>
+  </section>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;webPrimero&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Contenido&quot;},&quot;mostrarChips&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Contenido&quot;}}">
+const DICT = {
+  es: {
+    navTrabajo: "Trabajo", navAreas: "Áreas", navTrayectoria: "Trayectoria", navContacto: "Contacto",
+    ubicacion: "Colombia · trabajo remoto",
+    tituloUno: "Video", tituloY: "y", tituloDos: "web",
+    intro: "Soy Ximena Hincapié. Diseño movimiento y construyo sitios web. Dos oficios que trabajo por separado o juntos.",
+    introDos: "Cuatro años en producción audiovisual, animación gráfica y contenido digital. En paralelo, desarrollo y mantenimiento de sitios web y ecommerce en WordPress, Shopify, HighLevel y herramientas de IA.",
+    ctaTrabajo: "Ver el trabajo", ctaEscribir: "Escribirme",
+    areasTituloUno: "Dos áreas,", areasTituloItalic: "un mismo", areasTituloDos: "criterio",
+    areaUnoEyebrow: "01 — Audiovisual", areaUnoTitulo: "Motion design y edición",
+    areaUnoTexto: "Animación gráfica, animación tipográfica, postproducción y piezas para redes, web y contenido explicativo. De guion y storyboard a la pieza final.",
+    areaUnoItem: "Voz en off y apoyo con IA",
+    areaDosEyebrow: "02 — Web", areaDosTitulo: "Sitios, ecommerce y funnels",
+    areaDosTexto: "Construcción, migración y mantenimiento de sitios. Tiendas con WooCommerce y Shopify, funnels en HighLevel e integraciones a medida con algo de código.",
+    areaDosItem: "WordPress · Elementor · plugins y temas",
+    chips: ["Motion graphics", "Ecommerce", "Animación tipográfica", "Landing pages", "Postproducción", "Migraciones", "Guiones y storyboards", "Contenido para redes", "Integraciones"],
+    webTitulo: "Sitios web", webEyebrow: "Proyectos en línea", verSitio: "Ver sitio ↗",
+    santarosaTexto: "Ecommerce con sistema de agendamiento para alquiler y servicios. Configuración de tienda, plugins y flujo de reservas.",
+    desobedeceTexto: "Tienda en línea de marca de moda. Catálogo, fichas de producto, pasarela de pago y ajustes de diseño.",
+    desobedeceTags: "Ecommerce · Catálogo · Pagos",
+    organicoTexto: "Sitio del estudio donde trabajo. Lo construí con IA, lo puse en producción y me encargo de sus actualizaciones.",
+    organicoTags: "Claude · Deploy · Mantenimiento",
+    zerenaTexto: "Landing de portafolio: una sola página para presentar el trabajo de la marca con foco en lectura y contacto.",
+    zerenaTags: "Landing page · Diseño y armado",
+    vlaTexto: "Sitio de la agencia: presentación de servicios y portafolio, con armado de páginas y contacto.",
+    vlaTags: "Sitio web · Diseño y armado",
+    motionTitulo: "Motion y video", motionCta: "Ver el reel en Vimeo ↗",
+    reelEyebrow: "Reel — compilado", reelTexto: "Selección de mis mejores trabajos en animación, motion graphics y edición.",
+    motionUnoTitulo: "Animación ilustrada", motionUnoTexto: "Historias contadas 100% en animación, con ilustración propia y dirección de arte, para campañas y comunicación de marca con identidad visual única.",
+    motionDosTitulo: "Motion para redes", motionDosTexto: "Video vertical con gráficos en movimiento y ritmo pensado para retener audiencia: overlays, datos animados y edición ágil para Reels, Shorts y TikTok.",
+    motionTresTitulo: "Formato largo con gráficos", motionTresTexto: "Edición de formato largo con apoyo gráfico: títulos, lower thirds e infografías animadas, para entrevistas, podcasts y contenido educativo.",
+    trayectoriaTitulo: "Trayectoria",
+    organicoRol: "Motion designer, editora multimedia y desarrollo web",
+    organicoTrayectoria: "Producción de video, animaciones y piezas audiovisuales para clientes del estudio. También sitios web y ecommerce para esos clientes, y el sitio propio del estudio.",
+    wesoRol: "Cofundadora · creadora multimedia y gestión del sitio web",
+    wesoTexto: "Como cofundadora acompañé el sitio a través de tres plataformas: lo gestioné en WordPress, hice la migración completa a HighLevel y hoy sigo apoyando la versión que corre en Lovable. En paralelo produje sus assets para web, redes, campañas y videos para clientes, socios, eventos e inversionistas.",
+    wesoTagMigracion: "Migración WordPress → HighLevel", wesoTagAssets: "Assets audiovisuales",
+    coingeniaNombre: "Coingenia — convenio con el SENA",
+    coingeniaRol: "Motion grapher y editora multimedia · 7 meses",
+    coingeniaTexto: "Montaje, edición y animación de recursos visuales para videos instruccionales, integrando guiones, storyboards, textos e infografías animadas.",
+    educacionLabel: "Educación", educacionTitulo: "Licenciatura en Comunicación",
+    educacionDetalle: "Universidad Tecnológica de Pereira · 2020",
+    competenciasLabel: "Competencias",
+    competencias: ["Motion graphics y postproducción", "Animación tipográfica", "Guiones y storyboards", "Construcción y migración de sitios", "Ecommerce y funnels", "Control de calidad visual"],
+    idiomasLabel: "Idiomas y modalidad", idiomaUno: "Español nativo", idiomaDos: "Disponibilidad para trabajo remoto",
+    contactoTitulo: "Hablemos", contactoItalic: "de tu proyecto",
+    correoLabel: "Correo", telefonoLabel: "Teléfono", redesLabel: "Redes", ubicacionLabel: "Ubicación",
+    ciudad: "Colombia", remoto: "Trabajo remoto",
+    pie: "Ximena Hincapié — Motion design y web"
+  },
+  en: {
+    navTrabajo: "Work", navAreas: "Areas", navTrayectoria: "Experience", navContacto: "Contact",
+    ubicacion: "Colombia · working remotely",
+    tituloUno: "Video", tituloY: "and", tituloDos: "web",
+    intro: "I'm Ximena Hincapié. I design motion and build websites. Two crafts I take on separately or together.",
+    introDos: "Four years in audiovisual production, motion graphics and digital content. Alongside that, building and maintaining websites and online stores on WordPress, Shopify, HighLevel and AI tools.",
+    ctaTrabajo: "See the work", ctaEscribir: "Get in touch",
+    areasTituloUno: "Two areas,", areasTituloItalic: "one set of", areasTituloDos: "standards",
+    areaUnoEyebrow: "01 — Audiovisual", areaUnoTitulo: "Motion design and editing",
+    areaUnoTexto: "Motion graphics, kinetic typography, post-production and pieces for social, web and explanatory content. From script and storyboard to final delivery.",
+    areaUnoItem: "Voice-over and AI support",
+    areaDosEyebrow: "02 — Web", areaDosTitulo: "Sites, ecommerce and funnels",
+    areaDosTexto: "Building, migrating and maintaining websites. Stores with WooCommerce and Shopify, funnels in HighLevel and custom integrations with some code.",
+    areaDosItem: "WordPress · Elementor · plugins and themes",
+    chips: ["Motion graphics", "Ecommerce", "Kinetic typography", "Landing pages", "Post-production", "Migrations", "Scripts and storyboards", "Social content", "Integrations"],
+    webTitulo: "Websites", webEyebrow: "Live projects", verSitio: "Visit site ↗",
+    santarosaTexto: "Ecommerce with a booking system for rentals and services. Store setup, plugins and the reservation flow.",
+    desobedeceTexto: "Online store for a fashion brand. Catalogue, product pages, payment gateway and design adjustments.",
+    desobedeceTags: "Ecommerce · Catalogue · Payments",
+    organicoTexto: "The website of the studio I work with. I built it with AI, took it live and handle its updates.",
+    organicoTags: "Claude · Deploy · Maintenance",
+    zerenaTexto: "Portfolio landing page: a single page presenting the brand's work, focused on reading and contact.",
+    zerenaTags: "Landing page · Design and build",
+    vlaTexto: "The agency's website: services and portfolio presentation, with page build and contact.",
+    vlaTags: "Website · Design and build",
+    motionTitulo: "Motion and video", motionCta: "Watch the reel on Vimeo ↗",
+    reelEyebrow: "Reel — showcase", reelTexto: "A selection of my best work in animation, motion graphics and editing.",
+    motionUnoTitulo: "Illustrated animation", motionUnoTexto: "Stories told entirely in animation, with original illustration and art direction, for campaigns and brand communication with a distinctive visual identity.",
+    motionDosTitulo: "Motion for social", motionDosTexto: "Vertical video with motion graphics and pacing built to hold attention: overlays, animated data and fast-turnaround editing for Reels, Shorts and TikTok.",
+    motionTresTitulo: "Long-form with graphics", motionTresTexto: "Long-form editing with graphic support: titles, lower thirds and animated infographics, for interviews, podcasts and educational content.",
+    trayectoriaTitulo: "Experience",
+    organicoRol: "Motion designer, multimedia editor and web development",
+    organicoTrayectoria: "Video production, animation and audiovisual pieces for the studio's clients. Also websites and online stores for those clients, plus the studio's own site.",
+    wesoRol: "Co-founder · multimedia creator and website management",
+    wesoTexto: "As a co-founder I carried the site across three platforms: I managed it on WordPress, ran the full migration to HighLevel and today I still support the version running on Lovable. In parallel I produced its assets for web, social and campaigns, plus videos for clients, partners, events and investors.",
+    wesoTagMigracion: "WordPress → HighLevel migration", wesoTagAssets: "Audiovisual assets",
+    coingeniaNombre: "Coingenia — in partnership with SENA",
+    coingeniaRol: "Motion grapher and multimedia editor · 7 months",
+    coingeniaTexto: "Assembly, editing and animation of visual resources for instructional videos, integrating scripts, storyboards, text and animated infographics.",
+    educacionLabel: "Education", educacionTitulo: "BA in Communication",
+    educacionDetalle: "Universidad Tecnológica de Pereira · 2020",
+    competenciasLabel: "Skills",
+    competencias: ["Motion graphics and post-production", "Kinetic typography", "Scripts and storyboards", "Site builds and migrations", "Ecommerce and funnels", "Visual quality control"],
+    idiomasLabel: "Languages and availability", idiomaUno: "Native Spanish", idiomaDos: "Available for remote work",
+    contactoTitulo: "Let's talk", contactoItalic: "about your project",
+    correoLabel: "Email", telefonoLabel: "Phone", redesLabel: "Social", ubicacionLabel: "Location",
+    ciudad: "Colombia", remoto: "Working remotely",
+    pie: "Ximena Hincapié — Motion design and web"
+  }
+};
+
+const BTN = "padding: 6px 12px; border: 0; border-radius: 999px; font-family: Archivo, sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 0.1em; cursor: pointer; ";
+
+class Component extends DCLogic {
+  state = { lang: "es" };
+
+  componentDidMount() {
+    try {
+      const saved = localStorage.getItem("xh-lang");
+      if (saved === "es" || saved === "en") this.setState({ lang: saved });
+    } catch (e) {}
+    this.animarEntradas();
+    this.aplicarMeta();
+  }
+
+  componentDidUpdate() {
+    this.animarEntradas();
+    this.aplicarMeta();
+  }
+
+  aplicarMeta() {
+    if (typeof document === "undefined") return;
+    const en = this.state.lang === "en";
+    document.documentElement.lang = en ? "en" : "es";
+    document.title = en
+      ? "Ximena Hincapié — Motion design and web development"
+      : "Ximena Hincapié — Motion design y desarrollo web";
+    const desc = en
+      ? "Ximena Hincapié: motion designer and web developer based in Colombia. Animation, video editing, websites, ecommerce and funnels on WordPress, Shopify, HighLevel and AI tools."
+      : "Ximena Hincapié: motion designer y desarrolladora web en Colombia. Animación, edición de video y sitios web, ecommerce y funnels en WordPress, Shopify, HighLevel y herramientas de IA.";
+    const meta = document.querySelector('meta[name="description"]');
+    if (meta) meta.setAttribute("content", desc);
+  }
+
+  componentWillUnmount() {
+    if (this._obs) this._obs.disconnect();
+    if (this._parallax) {
+      window.removeEventListener("scroll", this._parallax);
+      window.removeEventListener("resize", this._parallax);
+    }
+  }
+
+  animarEntradas() {
+    if (typeof window === "undefined") return;
+    if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+
+    const GRUPOS = [
+      "#top p",
+      "#top a[href]",
+      "#areas h2",
+      "#areas h3",
+      "#areas p",
+      "#areas ul li",
+      "#trabajo h2",
+      "#trabajo article",
+      "#trabajo figure",
+      "#trabajo figure + div > div",
+      "#trayectoria h2",
+      "#trayectoria > div > div > div",
+      "#trayectoria aside",
+      "#contacto h2",
+      "#contacto > div > div > div"
+    ];
+
+    if (!this._obs) {
+      this._obs = new IntersectionObserver((entradas) => {
+        entradas.forEach((e) => {
+          if (!e.isIntersecting) return;
+          const el = e.target;
+          const retraso = Number(el.dataset.omDelay || 0);
+          const curva = el.dataset.omWipe ? "omWipe 900ms" : "omFadeUp 720ms";
+          el.style.animation = curva + " cubic-bezier(.2,.8,.3,1) " + retraso + "ms both";
+          this._obs.unobserve(el);
+        });
+      }, { rootMargin: "0px 0px -8% 0px", threshold: 0.12 });
+    }
+
+    GRUPOS.forEach((sel) => {
+      const nodos = document.querySelectorAll(sel);
+      nodos.forEach((el, i) => {
+        if (el.dataset.omReveal) return;
+        el.dataset.omReveal = "1";
+        el.dataset.omDelay = String(Math.min(i * 80, 400));
+        if (el.matches("#trabajo article, #trabajo figure, #trabajo figure + div > div")) el.dataset.omWipe = "1";
+        el.style.opacity = "0";
+        this._obs.observe(el);
+      });
+    });
+
+    if (!this._parallax) {
+      const mover = () => {
+        this._rafPend = false;
+        const alto = window.innerHeight || 1;
+        document.querySelectorAll("[data-ghost]").forEach((g) => {
+          const r = g.getBoundingClientRect();
+          const p = 1 - (r.top + r.height / 2) / alto;
+          g.style.setProperty("--gx", (p * 130).toFixed(1) + "px");
+        });
+      };
+      this._parallax = () => {
+        if (this._rafPend) return;
+        this._rafPend = true;
+        requestAnimationFrame(mover);
+      };
+      window.addEventListener("scroll", this._parallax, { passive: true });
+      window.addEventListener("resize", this._parallax, { passive: true });
+      mover();
+    }
+  }
+
+  setLang = (lang) => {
+    this.setState({ lang });
+    try { localStorage.setItem("xh-lang", lang); } catch (e) {}
+    if (document.documentElement) document.documentElement.lang = lang;
+  };
+
+  renderVals() {
+    const lang = this.state.lang === "en" ? "en" : "es";
+    const t = DICT[lang];
+    const DESORDEN = [
+      [-2, 4], [1.5, -5], [-1, 7], [2.5, -2], [-2.5, 3],
+      [1, 6], [-1.5, -4], [2, 2], [-1, -6]
+    ];
+    const chips = t.chips.map((texto, i) => {
+      const [rot, dy] = DESORDEN[i % DESORDEN.length];
+      return {
+        texto,
+        estilo: "display: inline-block; transform: rotate(" + rot + "deg) translateY(" + dy + "px)"
+      };
+    });
+    const webPrimero = this.props.webPrimero ?? true;
+    const on = "background: #183451; color: #F3ECDE;";
+    const off = "background: transparent; color: rgba(24,52,81,0.6);";
+    return {
+      ...t,
+      chips,
+      anio: new Date().getFullYear(),
+      mostrarChips: this.props.mostrarChips ?? true,
+      ordenWeb: webPrimero ? 1 : 2,
+      ordenVideo: webPrimero ? 2 : 1,
+      setEs: () => this.setLang("es"),
+      setEn: () => this.setLang("en"),
+      estiloEs: BTN + (lang === "es" ? on : off),
+      estiloEn: BTN + (lang === "en" ? on : off)
+    };
+  }
+}
+</script>
+</body>
+</html>
